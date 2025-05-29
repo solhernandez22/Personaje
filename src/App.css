@@ -1,0 +1,105 @@
+body{ background-image: url(https://wallpapers.com/images/hd/elegant-womanin-silver-dresswith-snake-8bkfp9vlg6gl58k7.jpg);
+background-size:cover;
+background-position: 430px;
+background-attachment: fixed;
+background-repeat: repeat;
+
+}
+
+
+
+.biografia{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%; 
+  border-radius: 10px;
+}
+
+ul{
+  display: flex;
+  justify-content: center;
+  gap: 36px;
+  list-style: none;
+  border-radius: 10px;
+  margin: 30px;
+}
+
+li{
+  height: 35px;
+  width: 150px;
+  border-radius: 10px;
+  background-color: rgba(47, 75, 230, 0.555);
+  align-content: center;
+  font-family: 'Courier New', Courier, monospace;
+  backdrop-filter:blur(1px);
+  box-shadow: 0 0 10px rgba(179, 178, 231, 0.658);
+}
+
+
+
+
+#spotify{
+margin-left: 20px;
+position: sticky;
+z-index: 1000;
+top: 12px;
+left: 0;
+bottom: 150px;
+}  
+
+
+#root { 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 700px;
+  max-width: 1280px;
+  margin: 80px;
+  padding: 2rem;
+  text-align: center;
+  background-color: #75b8f705;
+  border-radius: 10px;
+  backdrop-filter: blur(1px);
+  box-shadow: 0 0 10px rgba(115, 113, 238, 0.658);
+  background: linear-gradient(rgba(21, 21, 253, 0.432), rgba(212, 204, 247, 0.5));
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
