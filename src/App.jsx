@@ -10,9 +10,6 @@ import { GiCastle } from "react-icons/gi";
 
 function App() {
   return (
-
-
-
         <>
           <a href="https://open.spotify.com/prerelease/3UWFwDMzIfiXRQjEou1GYy">
             <GiCastle size={35} color='pink' />
@@ -32,27 +29,14 @@ function App() {
                 <Link to="/eventos">𝐴𝑔𝑒𝑛𝑑𝑎</Link>
               </li>
             </ul>
-
-
-
-
-
-
           </nav>
-
-
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/eventos" element={<Eventos />} />
           </Routes>
-
-
-
-
         </>
-
   )
 }
 
